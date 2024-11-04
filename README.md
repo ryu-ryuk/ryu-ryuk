@@ -1,10 +1,10 @@
 # 💫 about me
 
-Hey there, I'm Alok Ranjan 👋<br><br>I'm a developer with a growing focus on backend and cloud technologies. Currently exploring Google Cloud and sharpening my full-stack skills.<br><br>🖥️ Backend Developer: Crafting APIs and integrating systems<br>☁️ Cloud Enthusiast: Diving deep into Google Cloud<br>🐧 Linux Aficionado: Arch user (btw)<br>🌱 Continuous Learner: Pursuing certifications in cloud, networking, and AI<br>🚀 Current Project: Enhancing my Arch Hyprland setup with scripts and automations.<br><br>When I'm not coding or tinkering with my Arch setup, I'm:<br>- 💼 Helping students find opportunities as an Internshala Student Partner<br>- 📚 Creating tech content and documentation<br>- 🤝 Open to collaborating on innovative backend or cloud projects<br><br>Feel free to reach out if you have any ideas & want to collaborate with me :)
+Hey there, I'm Alok Ranjan 👋<br><br>I'm a developer with a growing focus on backend and cloud technologies and cybersecurity. Currently exploring Google Cloud and sharpening my full-stack skills.<br><br>🖥️ Backend Developer: Crafting APIs and integrating systems<br>☁️ Cloud Enthusiast: Diving deep into Google Cloud<br>🐧 Linux Aficionado: Arch user (btw)<br>🌱 Continuous Learner: Pursuing certifications in cloud, networking, and AI<br>🚀 Current Project: Enhancing my Arch Hyprland setup with scripts and automations.<br><br>When I'm not coding or tinkering with my Arch setup, I'm:<br>- 💼 Helping students find opportunities as an Internshala Student Partner<br>- 📚 Creating tech content and documentation<br>- 🤝 Open to collaborating on innovative backend or cloud projects<br><br>Feel free to reach out if you have any ideas & want to collaborate with me :)
 
 
 ## 🌐 socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryulore/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/ryu1033658) [![Telegram](https://img.shields.io/badge/Telegram-%230077B5.svg?logo=telegram&logoColor=white)](https://t.me/ryulore)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryulore/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/ryu1033658) [![Telegram](https://img.shields.io/badge/Telegram-%230077B5.svg?logo=telegram&logoColor=white)](https://t.me/ryulore)
 
 
 # 💻 tech stack
