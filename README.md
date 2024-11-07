@@ -1,6 +1,6 @@
 # 💫 about me
 
-Hey there, I'm Alok Ranjan 👋<br><br>I'm a developer with a growing focus on backend and cloud technologies and cybersecurity. Currently exploring Google Cloud and sharpening my full-stack skills.<br><br>🖥️ Backend Developer: Crafting APIs and integrating systems<br>☁️ Cloud Enthusiast: Diving deep into Google Cloud<br>🐧 Linux Aficionado: Arch user (btw)<br>🌱 Continuous Learner: Pursuing certifications in cloud, networking, and AI<br>🚀 Current Project: Enhancing my Arch Hyprland setup with scripts and automations.<br><br>When I'm not coding or tinkering with my Arch setup, I'm:<br>- 💼 Helping students find opportunities as an Internshala Student Partner<br>- 📚 Creating tech content and documentation<br>- 🤝 Open to collaborating on innovative backend or cloud projects<br><br>Feel free to reach out if you have any ideas & want to collaborate with me :)
+Hey there, I'm Alok Ranjan 👋<br><br>I'm a developer and a soon to be MLSA with a growing focus on backend and cloud technologies and cybersecurity. Currently feeding myself with the modules from Microsoft Learn and Google Cloud<br><br>🖥️ Backend Developer: Crafting APIs and integrating systems<br>☁️ Cloud Enthusiast: Diving deep into Google Cloud<br>🐧 Linux Aficionado: Arch user (btw)<br>🌱 Continuous Learner: Pursuing certifications in cloud, networking, and AI<br>🚀 Current Project: Enhancing my Arch Hyprland setup with scripts and automations.<br><br>When I'm not coding or tinkering with my Arch setup, I'm:<br>- 📚 Creating tech content and documentation<br>- 🤝 Open to collaborating on different open source projects<br><br>Feel free to reach out if you have any ideas & want to collaborate with me :)
 
 
 ## 🌐 socials
@@ -20,7 +20,4 @@ Hey there, I'm Alok Ranjan 👋<br><br>I'm a developer with a growing focus on b
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=ryu-ryuk&limit=5&theme=catppuccin_mocha&combine_all_yearly_contributions=true)
-
----
-[![](https://visitcount.itsvg.in/api?id=ryu-ryuk&icon=10&color=13)](https://visitcount.itsvg.in)
-
+___
