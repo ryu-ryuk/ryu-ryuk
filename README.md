@@ -1,7 +1,9 @@
 <h2 align="left">Alok Ranjan | Arch user (btw)</h2>
 
-### 
+### GitHub Metrics
+![Metrics](https://github.com/ryu-ryuk/ryu-ryuk/blob/main/github-metrics.svg)
 
+<!-- 
 <br clear="both">
 
 <div align="left">
@@ -9,7 +11,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ryu-ryuk&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=gruvbox&hide_border=false&custom_title=widely%20used" height="150" alt="languages graph"  />
 </div>
 
-###
+### -->
 
 <img align="right" height="150" src="https://gifdb.com/images/high/cute-anime-kitten-typing-cat-bwqjywmrsxcjv5o3.gif" />
 
@@ -27,8 +29,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="30" alt="django logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="30" alt="android logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
   <img width="12" />
