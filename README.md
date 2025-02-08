@@ -1,6 +1,5 @@
 <h2 align="left">Alok Ranjan | Arch user (btw)</h2>
 
-### GitHub Metrics
 ![Metrics](https://github.com/ryu-ryuk/ryu-ryuk/blob/main/github-metrics.svg)
 
 <!-- 
