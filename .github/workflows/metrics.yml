@@ -29,8 +29,9 @@ jobs:
           # Achievements Plugin
           plugin_achievements: yes
           plugin_achievements_display: detailed  # Options: detailed, compact
-          plugin_achievements_threshold: C  # Only display achievements of threshold C and higher
-          plugin_achievements_ignored: social  # You can ignore categories if desired (e.g., 'social')
+          plugin_achievements_threshold: C
+          plugin_achievements_ignored: social
+          plugin_achievements_sections: columns
 
           # Language Plugin
           plugin_languages: yes
@@ -59,3 +60,6 @@ jobs:
 
           # Repositories
           repositories_forks: yes
+
+          # Iso
+          plugin_isocalendar: yes
