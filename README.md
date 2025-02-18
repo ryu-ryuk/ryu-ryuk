@@ -30,24 +30,7 @@
     </picture> 
   </a>
 
-  <a href="mailto: alokraj3850@gmail.com" target="_blank" rel="noreferrer"> 
-    <picture> 
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gmail-dark.svg" /> 
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gmail.svg" /> 
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/gmail.svg" width="32" height="32" /> 
-    </picture> 
-  </a> 
-
-  <a href="https://t.me/ryulore" target="_blank" rel="noreferrer"> 
-    <picture> 
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/telegram-dark.svg" /> 
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/telegram.svg" /> 
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/telegram.svg" width="32" height="32" /> 
-    </picture> 
-  </a> 
-</p>
  
 ### GitHub Stats
 
 <p align="left"><img src="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/main/github-metrics.svg" /></p>
-
