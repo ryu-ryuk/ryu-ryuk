@@ -1,8 +1,8 @@
 name: GitHub Metrics
 
 on:
-  # Schedule updates (every 12 hours)
-  schedule: [{cron: "0 */12 * * *"}]
+  # Schedule updates (every 3 hours)
+  schedule: [{cron: "0 */3 * * *"}]
   # Allows manual trigger
   workflow_dispatch:
   # Runs on every push to master or main branch
