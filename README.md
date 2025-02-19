@@ -34,7 +34,9 @@
 
 <p align="left"><img src="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/main/github-metrics.svg" /></p>
 
+<div align="center">
 ───── ⋆⋅☆⋅⋆ ─────
+</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/output/github-snake-dark.svg" />
