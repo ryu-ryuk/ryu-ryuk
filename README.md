@@ -25,11 +25,13 @@
 </p>
 
 ---
-<p align="left">
-  know more about me <a href="https://alokranjan.me" target="_blank">alokranjan.me</a>
+
+<p align="center">
+  know more about me <a href="https://alokranjan.me" target="_blank">here</a>
 </p>
 ---
-### my GitHub stats
+
+### my GitHub stats 
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/main/github-metrics.svg" alt="GitHub Metrics" />
