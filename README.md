@@ -1,7 +1,7 @@
-<h2 align="left">Alok Ranjan | Arch User (btw)</h2>
+<h2 align="left">Alok Ranjan</h2>
 
 <h3 align="left">
-  Know more about me 👉 <a href="https://alokranjan.me" target="_blank">alokranjan.me</a>
+  know more about me <a href="https://alokranjan.me" target="_blank">alokranjan.me</a>
 </h3>
 
 <p align="left">
@@ -10,7 +10,7 @@
 
 ---
 
-### 🔗 Connect with me
+### to connect with me
 
 <p align="left">
 
@@ -30,7 +30,7 @@
 
 ---
 
-### 📊 GitHub Stats
+### my GitHub stats
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/main/github-metrics.svg" alt="GitHub Metrics" />
