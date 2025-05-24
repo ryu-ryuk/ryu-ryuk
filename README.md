@@ -6,9 +6,9 @@
 
 ---
 
-### to connect with me
+<h2 align="center"> to connect with me </h2>
 
-<p align="left">
+<p align="center">
 
   <a href="https://github.com/ryu-ryuk" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" />
@@ -32,9 +32,9 @@
 
 ---
 
-### my GitHub stats 
+<h2 align="center"> my GitHub stats </h2>
 
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/main/github-metrics.svg" alt="GitHub Metrics" />
 </p>
 
