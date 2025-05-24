@@ -59,7 +59,7 @@ jobs:
           plugin_lines: yes
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
-          plugin_lines_sections: history, repositories  # Removed invalid 'base' value
+          plugin_lines_sections: history, repositories  
 
           # Notable Contributions Plugin
           plugin_notable: yes
@@ -74,7 +74,7 @@ jobs:
           plugin_isocalendar: yes
 
           # Error Handling and Optimization
-          config_output: svg  # Explicitly set output format
-          config_padding: 10%, 10%  # Adjust padding for better rendering
-          retries: 3  # Retry on transient failures
+          config_output: svg  
+          config_padding: 10%, 10%  
+          retries: 3  
           retries_delay: 300  # Delay between retries (in seconds)
