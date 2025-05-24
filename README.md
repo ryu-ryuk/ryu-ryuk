@@ -1,9 +1,5 @@
 <h2 align="left">Alok Ranjan</h2>
 
-<h3 align="left">
-  know more about me <a href="https://alokranjan.me" target="_blank">alokranjan.me</a>
-</h3>
-
 <p align="left">
   <img src="https://count.getloli.com/get/@ryu-ryuk.github.io?theme=rule34" alt="Profile views counter" />
 </p>
@@ -29,7 +25,10 @@
 </p>
 
 ---
-
+<p align="left">
+  know more about me <a href="https://alokranjan.me" target="_blank">alokranjan.me</a>
+</p>
+---
 ### my GitHub stats
 
 <p align="left">
