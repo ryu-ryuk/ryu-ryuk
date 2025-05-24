@@ -1,22 +1,30 @@
 name: GitHub Metrics
 
 on:
-  # Schedule updates (every 3 hours)
-  schedule: [{cron: "0 */6 * * *"}]
-  # Allows manual trigger
+  # Run every 6 hours
+  schedule:
+    - cron: "0 */6 * * *"
+  # Allow manual trigger
   workflow_dispatch:
-  # Runs on every push to master or main branch
-  push: {branches: ["master", "main"]}
+  # Run on push to main/master
+  push:
+    branches: ["main", "master"]
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write  # Required to write metrics output
+      issues: read     # For plugin_notable
+      pull-requests: read  # For plugin_notable
+      repository-projects: read  # For repository data access
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Checkout repository
+        uses: actions/checkout@v4  # Explicitly checkout the repo
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@v3.34  # Pin to stable version instead of @latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}  # Personal Access Token with repo, user, read:org scopes
 
           # User settings
           user: ryu-ryuk
@@ -32,10 +40,9 @@ jobs:
           plugin_achievements_limit: 0
           plugin_achievements_secrets: yes
           plugin_achievements_ignored: sponsor, social
-          plugin_achievements_only: >-
-            developer, stargazer, packager, scripter, infographile
-            
-          # Language Plugin
+          plugin_achievements_only: developer, stargazer, packager, scripter, infographile
+
+          # Languages Plugin
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
@@ -48,12 +55,11 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
 
-          # Lines of Code Plugin
+          # Lines of Code Plugin (Fixed)
           plugin_lines: yes
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
-          plugin_lines_sections: base,history,repositories
-
+          plugin_lines_sections: history, repositories  # Removed invalid 'base' value
 
           # Notable Contributions Plugin
           plugin_notable: yes
@@ -64,5 +70,11 @@ jobs:
           # Repositories
           repositories_forks: yes
 
-          # Iso
+          # Isocalendar Plugin
           plugin_isocalendar: yes
+
+          # Error Handling and Optimization
+          config_output: svg  # Explicitly set output format
+          config_padding: 10%, 10%  # Adjust padding for better rendering
+          retries: 3  # Retry on transient failures
+          retries_delay: 300  # Delay between retries (in seconds)
