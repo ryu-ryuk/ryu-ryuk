@@ -22,7 +22,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4  # Explicitly checkout the repo
       - name: Generate GitHub Metrics
-        uses: lowlighter/metrics@v3.34  # Pin to stable version instead of @latest
+        uses: lowlighter/metrics@v3.34  # Pinned to stable version
         with:
           token: ${{ secrets.METRICS_TOKEN }}  # Personal Access Token with repo, user, read:org scopes
 
@@ -32,6 +32,8 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_octicon: yes
           config_timezone: Asia/Kolkata
+          config_output: svg  # Explicitly set output format
+          config_padding: 10%, 10%  # Adjust padding for better rendering
 
           # Achievements Plugin
           plugin_achievements: yes
@@ -55,12 +57,6 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
 
-          # Lines of Code Plugin (Fixed)
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: history, repositories  
-
           # Notable Contributions Plugin
           plugin_notable: yes
           plugin_notable_from: all
@@ -73,8 +69,6 @@ jobs:
           # Isocalendar Plugin
           plugin_isocalendar: yes
 
-          # Error Handling and Optimization
-          config_output: svg  
-          config_padding: 10%, 10%  
-          retries: 3  
+          # Error Handling
+          retries: 3  # Retry on transient failures
           retries_delay: 300  # Delay between retries (in seconds)
