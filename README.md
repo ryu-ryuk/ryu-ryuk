@@ -29,6 +29,7 @@
 <p align="center">
   know more about me <a href="https://alokranjan.me" target="_blank">here</a>
 </p>
+
 ---
 
 ### my GitHub stats 
