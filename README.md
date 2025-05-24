@@ -1,6 +1,6 @@
-<h2 align="left">Alok Ranjan</h2>
+<h2 align="center">Alok Ranjan</h2>
 
-<p align="left">
+<p align="center">
   <img src="https://count.getloli.com/get/@ryu-ryuk.github.io?theme=rule34" alt="Profile views counter" />
 </p>
 
