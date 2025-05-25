@@ -28,7 +28,7 @@ jobs:
           fetch-depth: 0 # Fetches all history so the action can determine changes
 
       - name: Generate GitHub Metrics
-        uses: lowlighter/metrics@v3.34 # Or check for the latest stable version
+        uses: stalomeow/metrics@projects-v2 #lowlighter/metrics@v3.34 # Or check for the latest stable version
         with:
           token: ${{ secrets.METRICS_TOKEN }} # PAT with repo, user, read:org (if needed) scopes
 
