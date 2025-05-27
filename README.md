@@ -27,7 +27,7 @@
 ---
 
 <p align="center">
-  know more about me <a href="https://alokranjan.me" target="_blank">here</a>
+  if you'd like to know more about me ;3 <a href="https://alokranjan.me" target="_blank">here</a>
 </p>
 
 ---
