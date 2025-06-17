@@ -45,8 +45,8 @@
 
 <p align="center">
   <picture>
-    <img src="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/output/github-contribution-grid-snake.svg" />
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/output/github-contribution-grid-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/output/github-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/output/github-snake-dark.svg" />
 
   </picture>
 </p>
