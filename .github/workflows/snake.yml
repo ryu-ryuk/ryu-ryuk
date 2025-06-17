@@ -27,8 +27,9 @@ jobs:
           # Define the output files and their configurations
           outputs: |
             dist/github-snake.svg
-            dist/github-contribution-grid-snake.svg?color_dots=#e7e7e8,#7b539b,#5e4c77,#483060,#a475cf
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#cba6f7&color_dots=#f5e0dc,#f5c2e7,#cba6f7,#b4befe,#bac2de
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#cba6f7&color_dots=#f5e0dc,#f5c2e7,#cba6f7,#b4befe,#bac2de
+
           # dist/github-snake-dark.svg?palette=github-dark
           # dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
