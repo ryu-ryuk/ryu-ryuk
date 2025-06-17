@@ -41,11 +41,6 @@
 ---
 
 
-
-{{ wakatimeDoubleCategoryBar "💾 Languages:" wakatimeData.Languages "💼 Projects:" wakatimeData.Projects 5 }}
-
-https://github-readme-stats.hackclub.dev/api/wakatime?username=7358&api_domain=hackatime.hackclub.com&theme=catppuccin_mocha&custom_title=Hackatime+Stats&layout=compact&cache_seconds=0&langs_count=8
-
 <div align="center">───── ⋆⋅☆⋅⋆ ─────</div>
 
 <p align="center">
