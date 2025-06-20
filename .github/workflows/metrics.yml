@@ -2,115 +2,50 @@ name: GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # Run every 6 hours
-  workflow_dispatch: # Allow manual trigger
+    - cron: "0 */6 * * *"  # Every 6 hours
+  workflow_dispatch:
   push:
     branches: ["main", "master"]
 
 jobs:
-  github-metrics:
+  metrics:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Required to write metrics output
-      # For specific plugins (ensure these are needed for your chosen plugins)
+      contents: write
       issues: read
       pull-requests: read
-      discussions: read # If using plugin_discussions
-      # repository-projects: read # Less commonly needed unless specific project plugins are used
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          # Necessary to commit back to the repository
-          # This will use the GITHUB_TOKEN by default if your METRICS_TOKEN is for API access only
-          # If METRICS_TOKEN has repo scope, it might be used if configured, but explicit commit is safer
-          fetch-depth: 0 # Fetches all history so the action can determine changes
+          fetch-depth: 0
 
       - name: Generate GitHub Metrics
-        uses: stalomeow/metrics@projects-v2 #lowlighter/metrics@v3.34 # Or check for the latest stable version
+        uses: stalomeow/metrics@projects-v2
         with:
-          token: ${{ secrets.METRICS_TOKEN }} # PAT with repo, user, read:org (if needed) scopes
-
-          # User settings
+          token: ${{ secrets.METRICS_TOKEN }}
           user: ryu-ryuk
-          template: classic # Explore other templates
-          base: header, activity, community, repositories, metadata # Core sections
-          # config_theme: dracula # Example: try a different theme
-          config_octicon: yes
+          template: classic
+          base: header, activity, community, repositories
           config_timezone: Asia/Kolkata
           config_output: svg
-          config_padding: 10%, 10% # Adjust padding as needed
-          config_animations: yes # Enable or disable animations
-          # config_file: github-stats.svg # If you want a custom filename
+          config_animations: yes
 
-          # Achievements Plugin
           plugin_achievements: yes
-          plugin_achievements_display: detailed # Or "compact"
-          plugin_achievements_threshold: C # S, A, B, C, D, E, F (rank threshold)
-          plugin_achievements_limit: 0 # 0 for no limit
-          # plugin_achievements_secrets: yes # Enable if you want to count contributions to private repos (requires PAT with repo scope)
-          # Use either 'only' or 'ignored', not both for clarity unless specific intent
-          plugin_achievements_only: developer, stargazer, packager, scripter, infographile # Focus on these
-          # plugin_achievements_ignored: sponsor, social # Example: if 'only' is not used
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: B
+          plugin_achievements_only: developer, scripter, infographile
 
-          # Isocalendar Plugin (Contribution graph)
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year # Or "full-year"
-
-          # Languages Plugin
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_limit: 8 # Show top 8 languages
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used, recently-used # Add recently-used
-          plugin_languages_threshold: 0%
-          # plugin_languages_ignored: html, css, scss # Example: languages to ignore
+          plugin_languages_limit: 6
+          plugin_languages_sections: most-used
+          plugin_languages_categories: programming
 
-          # Notable Contributions Plugin
+          plugin_isocalendar: yes
           plugin_notable: yes
-          plugin_notable_from: organization # Or "user" or "all"
-          plugin_notable_repositories: yes # Display notable contributions in repositories owned by the user/org
-          plugin_notable_types: commit, pull_request, issue, review # Add more types
-          plugin_notable_limit: 5 # Limit the number of notable contributions displayed
+          plugin_notable_from: user
+          plugin_notable_limit: 3
 
-          # Repositories Plugin
-          repositories_forks: yes # Include forks in repository statistics
-          repositories_affiliations: owner # owner, collaborator, organization_member
-          # plugin_repositories_order: pushed # Order repositories by last push date
-
-          # Habits Plugin (New Suggestion)
-          plugin_habits: yes
-          plugin_habits_from: 1000 # Number of events to analyze for habits
-          plugin_habits_days: 30 # Number of days to analyze for habits
-          plugin_habits_charts: yes # Display charts for habits (e.g., commit times)
-          plugin_habits_trim: yes # Trim empty days from charts
-
-          # Lines of Code Plugin (New Suggestion)
-          plugin_lines: yes
-          plugin_lines_sections: base # Show lines of code changes in base statistics
-          plugin_lines_history_limit: 1 # Show lines of code changes for the last year
-
-          # People Plugin (New Suggestion)
-          # plugin_people: yes
-          # plugin_people_types: followers, following # Types of people to display
-          # plugin_people_limit: 24 # Limit the number of people displayed
-          # plugin_people_size: 28 # Size of avatars
-
-          # Reactions Plugin (New Suggestion)
-          # plugin_reactions: yes
-          # plugin_reactions_limit: 200 # Limit of items to scan for reactions
-          # plugin_reactions_display: "most_reacted" # "recent" or "most_reacted"
-          # plugin_reactions_days: 90 # Look back 90 days for reactions
-
-          # Add more plugins here as desired...
-
-          # Error Handling
-          retries: 3
-          retries_delay: 300
-
+          retries: 2
+          retries_delay: 180
