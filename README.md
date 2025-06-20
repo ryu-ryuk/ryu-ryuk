@@ -1,38 +1,43 @@
-<h2 align="center">Alok Ranjan</h2>
+<h1 align="center">Alok Ranjan</h1>
 
 <p align="center">
-  <img src="https://count.getloli.com/get/@ryu-ryuk.github.io?theme=rule34" alt="Profile views counter" />
+  <img src="https://count.getloli.com/get/@ryu-ryuk.github.io?theme=booru-lisu" alt="Profile views" />
 </p>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=CDD6F4&center=true&vCenter=true&width=435&lines=Backend+Developer;Linux+Enthusiast;Creator+of+Yoru+Pastebin" alt="Typing SVG" />
+</div>
 
 ---
 
-<h2 align="center"> to connect with me </h2>
+
+
+## Connect with me
 
 <p align="center">
-
-  <a href="https://github.com/ryu-ryuk" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" />
+  <a href="https://github.com/ryu-ryuk" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="32" height="32" alt="GitHub" />
   </a>
-
-  <a href="https://x.com/ryu1033658" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" alt="Twitter" />
+  <a href="https://x.com/ryu1033658" target="_blank">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" alt="X (Twitter)" />
   </a>
-
-  <a href="https://www.linkedin.com/in/ryulore" target="_blank" rel="noreferrer">
+  <a href="https://www.linkedin.com/in/ryulore" target="_blank">
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn" />
   </a>
-
+  <p align="center">
+  <a href="https://alokranjan.me" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-alokranjan.me-b4befe?style=for-the-badge&logo=firefox-browser&logoColor=white" />
+  </a>
 </p>
-
----
 
 <p align="center">
-  if you'd like to know more about me ;3 <a href="https://blogs.alokranjan.me" target="_blank">here</a>
+  curious about me?
+  check my <a href="https://blogs.alokranjan.me" target="_blank"><strong>blog</strong></a>.
 </p>
 
 ---
 
-<h2 align="center"> my GitHub stats </h2>
+## GitHub Stats
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/main/github-metrics.svg" alt="GitHub Metrics" />
@@ -40,13 +45,18 @@
 
 ---
 
-
-<div align="center">───── ⋆⋅☆⋅⋆ ─────</div>
+## Activity
 
 <p align="center">
   <picture>
-    <img src="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/output/github-snake.svg" />
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/output/github-snake-dark.svg" />
-
+    <img src="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/output/github-snake.svg" alt="GitHub Snake Animation" />
   </picture>
 </p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=b4befe&height=100&section=footer"/>
+</p>
+
