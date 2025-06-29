@@ -45,7 +45,7 @@
 
 ---
 
-## Activity
+## Snekitivity :>
 
 <p align="center">
   <picture>
