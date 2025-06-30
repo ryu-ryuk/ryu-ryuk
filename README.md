@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=cba6f7&center=true&vCenter=true&width=435&lines=backend+developer;linux+(+arch+btw+);creator+of+yoru+pastebin" alt="typing svg" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=cba6f7&center=true&vCenter=true&width=435&lines=backend+developer;linux+|+arch+btw;creator+of+yoru+pastebin" alt="typing svg" />
 </p>
 <h2 align="center" style="color:#cdd6f4;">connect with me</h2>
 
