@@ -1,56 +1,44 @@
-# Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
-
 on:
-  schedule: [{cron: "0 */6 * * *"}]  # Every 6 hours
+  schedule: [{cron: "0 */6 * * *"}]
   workflow_dispatch:
   push: {branches: ["main", "master"]}
-
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@3.34  # Use specific version
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # identity
           user: ryu-ryuk
           template: classic
           config_timezone: Asia/Kolkata
           config_octicon: yes
-
-          # base sections
           base: header, activity, community, repositories, metadata
-
-          # language stats
+          
+          # Language stats (with safer settings)
           plugin_languages: yes
           plugin_languages_limit: 6
           plugin_languages_categories: programming, markup
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_sections: most-used  # Removed recently-used
           plugin_languages_threshold: 0%
           plugin_languages_ignored: html, css, scss
           plugin_languages_indepth: yes
           plugin_languages_colors: github
-
-          # lines of code history
+          
+          # Lines of code history
           plugin_lines: yes
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-
-          # notable contributions
+          
+          # Notable contributions
           plugin_notable: yes
           plugin_notable_from: user
           plugin_notable_types: commit, pull_request, issue
           plugin_notable_repositories: yes
-
-          # forks
+          
+          # Forks
           repositories_forks: yes
