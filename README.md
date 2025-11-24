@@ -22,12 +22,9 @@
 ## Snekitivity :>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/output/github-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/output/github-snake.svg" alt="GitHub Snake Animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/refs/heads/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/refs/heads/output/github-snake.svg" alt="GitHub Snake Animation" />
 </picture>
 
 ---
-
-![Footer Wave](https://capsule-render.vercel.app/api?type=waving&color=b4befe&height=100&section=footer)
-
 </div>
