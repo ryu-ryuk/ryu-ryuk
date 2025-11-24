@@ -17,7 +17,7 @@
 
 ## GitHub Stats
 
-![GitHub Metrics](https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/main/github-metrics.svg)
+![GitHub Metrics](https://raw.githubusercontent.com/ryu-ryuk/ryu-ryuk/refs/heads/main/github-metrics.svg)
 
 ## Snekitivity :>
 
